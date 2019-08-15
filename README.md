@@ -1,4 +1,4 @@
-# SUb6 Predicts mmWave Beam-forming Vectors:
+# Sub-6 Predicts mmWave Beam-forming Vectors:
 Using sub-6 GHz channels to predict top-n beam-forming vectors for 28 GHz users.
 
 # Requirements:
