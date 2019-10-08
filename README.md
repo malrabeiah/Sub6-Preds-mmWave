@@ -1,5 +1,5 @@
 # Sub-6 Predicts mmWave Beam-forming Vectors:
-Using sub-6 GHz channels to predict top-n beam-forming vectors for 28 GHz users.
+This is a Deep Learning (DL) solution that uses sub-6 GHz channels to predict top-n beams and link status of mmWave users.
 
 # Requirements:
 
@@ -19,4 +19,4 @@ Optional:
 
 # Citation:
 
-Updates coming soon...
+Updates coming soon... :-)
