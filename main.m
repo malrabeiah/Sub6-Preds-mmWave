@@ -169,6 +169,7 @@ plot(snr_db, ave_rate_top1(1,:), '-b',...
      snr_db, ave_upper(1,:), '-.k');
 xlabel('SNR (dB)');
 ylabel('Spectral Efficiency (bits/sec/Hz)');
+grid on
 legend('Top-1 achievable rate','Top-3 achievable rate','Upper bound')
 name_file = ['ansVSrate_' options.expTag];
 saveas(fig1,name_file)
