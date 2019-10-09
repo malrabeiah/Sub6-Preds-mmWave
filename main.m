@@ -31,7 +31,7 @@ ave_upper = zeros(length(num_ant_mm), length(tx_power));
 options.figCount = 0;
 options.type = 'MLP1';
 options.case = 'LOS';
-options.expTag = [options.type '_' options.case '_variableSNR'];% _32Sub_15Path_4Colo_Antennas_PreTrained
+options.expTag = [options.type '_' options.case '_variableSNR'];
 options.top_n = 3;
 options.valAccuracy = zeros(length(num_ant_mm),length(tx_power));
 options.normMethod = 'perDataset';
@@ -40,7 +40,7 @@ fprintf('Experiment: %s\n', options.expTag);
 
 for ant = 1:length(num_ant_mm)% number of antennas to loop over
 	fprintf('Number of sub-6 antennas: %d and number of mmWave antennas: %d\n', num_ant(1), num_ant_mm(ant))
-    [W,~] = UPA_codebook_generator(1,num_ant_mm(ant),1,1,1,1,0.5);% Beam codebook. Only used inside the loop if looping over mmWave antenna number
+    [W,~] = UPA_codebook_generator(1,num_ant_mm(ant),1,1,1,1,0.5);% Beam codebook
 	options.codebook = W;
 	options.numAnt = [num_ant(1), num_ant_mm(ant)];
 	options.numSub = 32;
