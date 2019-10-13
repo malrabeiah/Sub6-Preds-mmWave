@@ -21,6 +21,17 @@ Optional:
 
 The raw sub-6 and mmWave data files must be generated first using [DeepMIMO dataset](http://www.deepmimo.net/?i=1). Refer to the notes at the beginning of main.m to learn more about how the raw data is structured. Once the data is ready, add the paths to the two data files to the fields: options.dataFile1 and options.dataFile2, and run the script. It will evantually generate a figure of the top-1 and top-3 spectral efficiencies versus SNR.
 
+1- Generate the datasets using the scenarios O1_28 and O1_3p5 from DeepMIMO. Use the parameters illustrated in Table.1 in Section VII-B of [the paper](“https://arxiv.org/abs/1910.02900”).
+
+2- Prepare two MATLAB structures, one for the sub-6GHz data and the other for 28GHz. Please refer to the comments at the beginning of main.m for more information on the data structures.
+
+3- Assign the paths to the two MATLAB structures to the two parameters: options.dataFile1 and options.dataFile2 in the beginning of main.m.
+
+4- Run main.m to get the figure 4-b in the paper.
+
+REMARKs:
+. Transmit power range is defined in tx_power in main.m.
+
 # Citation:
 
 If you use these codes or a modified version of them, please cite the following work:
