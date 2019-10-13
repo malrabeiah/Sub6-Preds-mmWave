@@ -1,5 +1,5 @@
 # Sub-6 Predicts mmWave Beam-forming Vectors:
-This is a Deep Learning (DL) solution that uses sub-6 GHz channels to predict top-n beams and link status of mmWave users. See [Deep Learning for mmWave Beam and Blockage Prediction Using Sub-6GHz Channels](https://arxiv.org/abs/1910.02900)
+This is an implementation od the Deep Learning (DL) solution that uses sub-6 GHz channels to predict top-n beams of mmWave users. It could also be used with the approperiate datasets and modifications to generate all the figures in [Deep Learning for mmWave Beam and Blockage Prediction Using Sub-6GHz Channels](https://arxiv.org/abs/1910.02900).
 
 # Requirements:
 
@@ -19,8 +19,6 @@ Optional:
 
 # Running Instructions:
 
-The raw sub-6 and mmWave data files must be generated first using [DeepMIMO dataset](http://www.deepmimo.net/?i=1). Refer to the notes at the beginning of main.m to learn more about how the raw data is structured. Once the data is ready, add the paths to the two data files to the fields: options.dataFile1 and options.dataFile2, and run the script. It will evantually generate a figure of the top-1 and top-3 spectral efficiencies versus SNR.
-
 1- Generate the datasets using the scenarios O1_28 and O1_3p5 from DeepMIMO. Use the parameters illustrated in Table.1 in Section VII-B of [the paper](“https://arxiv.org/abs/1910.02900”).
 
 2- Prepare two MATLAB structures, one for the sub-6GHz data and the other for 28GHz. Please refer to the comments at the beginning of main.m for more information on the data structures.
@@ -29,8 +27,7 @@ The raw sub-6 and mmWave data files must be generated first using [DeepMIMO data
 
 4- Run main.m to get the figure 4-b in the paper.
 
-REMARKs:
-. Transmit power range is defined in tx_power in main.m.
+REMARK: Transmit power range is defined in tx_power in main.m.
 
 # Citation:
 
