@@ -1,5 +1,5 @@
 # Sub-6 Predicts mmWave Beam-forming Vectors:
-This is an implementation od the Deep Learning (DL) solution that uses sub-6 GHz channels to predict top-n beams of mmWave users. It could also be used with the approperiate datasets and modifications to generate all the figures in [Deep Learning for mmWave Beam and Blockage Prediction Using Sub-6GHz Channels](https://arxiv.org/abs/1910.02900).
+This is an implementation of the Deep Learning (DL) solution that uses sub-6 GHz channels to predict top-n beams of mmWave users. With the approperiate modifications and given the right dataset, it could also be used to generate all the figures in [Deep Learning for mmWave Beam and Blockage Prediction Using Sub-6GHz Channels](https://arxiv.org/abs/1910.02900).
 
 # Requirements:
 
