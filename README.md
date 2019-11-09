@@ -19,9 +19,9 @@ Optional:
 
 # Running Instructions:
 
-1- Generate the datasets using the scenarios O1_28 and O1_3p5 from DeepMIMO. Use the parameters illustrated in Table.1 in Section VII-B of [the paper](“https://arxiv.org/abs/1910.02900”).
+1- Generate the datasets using scenarios O1_28 and O1_3p5 in the DeepMIMO dataset. Use the parameters listed in Table.1, Section VII-B of [the paper](“https://arxiv.org/abs/1910.02900”).
 
-2- Prepare two MATLAB structures, one for the sub-6GHz data and the other for 28GHz. Please refer to the comments at the beginning of main.m for more information on the data structures.
+2- Prepare two MATLAB structures, one for sub-6GHz data and the other for 28GHz. Please refer to the comments at the beginning of main.m for more information on the data structures.
 
 3- Assign the paths to the two MATLAB structures to the two parameters: options.dataFile1 and options.dataFile2 in the beginning of main.m.
 
