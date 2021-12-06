@@ -7,7 +7,7 @@ Essential:
 
 1- MATLAB deep learning toolbox.
 
-2- [DeepMIMO dataset](http://www.deepmimo.net/?i=1)
+2- [DeepMIMO dataset](https://deepmimo.net/)
 
 Optional:
 
